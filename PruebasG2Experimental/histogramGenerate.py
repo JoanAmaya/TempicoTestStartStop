@@ -93,59 +93,82 @@ class PulsesHistogram():
         else:
             return ("ps", 1)
 
-
-objetoGraficar= PulsesHistogram(5,1000000,4000000000,'40000PulsosPeriodicos/histograma.txt',"40000PeriodicosCorrectos/DataAllStops.png")
+objetoGraficar= PulsesHistogram(5,500000,4000000000,'40000Pulsos24MHZ/Histograma4000024Mhz.txt',"40000Pulsos24MHZ/DataAllStops.png")
 dataOneStop = objetoGraficar.readDataOneStop()
 dataAllStops = objetoGraficar.readDataAllStops()
 objetoGraficar.createHistogram(dataAllStops)
 
-objetoGraficar= PulsesHistogram(5,1000000,4000000000,'40000PulsosPeriodicos/histograma.txt',"40000PeriodicosCorrectos/Data5Stop.png")
+objetoGraficar= PulsesHistogram(5,500000,4000000000,'40000Pulsos24MHZ/Histograma4000024Mhz.txt',"40000Pulsos24MHZ/Data5Stop.png")
 dataOneStop = objetoGraficar.readDataOneStop()
 dataAllStops = objetoGraficar.readDataAllStops()
 objetoGraficar.createHistogram(dataOneStop)
 
-objetoGraficar= PulsesHistogram(4,1000000,4000000000,'40000PulsosPeriodicos/histograma.txt',"40000PeriodicosCorrectos/Data4Stop.png")
+objetoGraficar= PulsesHistogram(4,500000,4000000000,'40000Pulsos24MHZ/Histograma4000024Mhz.txt',"40000Pulsos24MHZ/Data4Stop.png")
 dataOneStop = objetoGraficar.readDataOneStop()
 dataAllStops = objetoGraficar.readDataAllStops()
 objetoGraficar.createHistogram(dataOneStop)
 
-objetoGraficar= PulsesHistogram(3,1000000,4000000000,'40000PulsosPeriodicos/histograma.txt',"40000PeriodicosCorrectos/Data3Stop.png")
+objetoGraficar= PulsesHistogram(3,500000,4000000000,'40000Pulsos24MHZ/Histograma4000024Mhz.txt',"40000Pulsos24MHZ/Data3Stop.png")
 dataOneStop = objetoGraficar.readDataOneStop()
 dataAllStops = objetoGraficar.readDataAllStops()
 objetoGraficar.createHistogram(dataOneStop)
 
-objetoGraficar= PulsesHistogram(2,1000000,4000000000,'40000PulsosPeriodicos/histograma.txt',"40000PeriodicosCorrectos/Data2Stop.png")
+objetoGraficar= PulsesHistogram(2,500000,4000000000,'40000Pulsos24MHZ/Histograma4000024Mhz.txt',"40000Pulsos24MHZ/Data2Stop.png")
 dataOneStop = objetoGraficar.readDataOneStop()
 dataAllStops = objetoGraficar.readDataAllStops()
 objetoGraficar.createHistogram(dataOneStop)
 
-objetoGraficar= PulsesHistogram(1,1000000,4000000000,'40000PulsosPeriodicos/histograma.txt',"40000PeriodicosCorrectos/Data1Stop.png")
+objetoGraficar= PulsesHistogram(1,500000,4000000000,'40000Pulsos24MHZ/Histograma4000024Mhz.txt',"40000Pulsos24MHZ/Data1Stop.png")
 dataOneStop = objetoGraficar.readDataOneStop()
 dataAllStops = objetoGraficar.readDataAllStops()
 objetoGraficar.createHistogram(dataOneStop)
 
 
+objetoGraficar= PulsesHistogram(5,500000,200000000,'40000Pulsos24MHZ/Histograma4000024Mhz.txt',"40000Pulsos24MHZ/Data5StopZoom.png")
+dataOneStop = objetoGraficar.readDataOneStop()
+dataAllStops = objetoGraficar.readDataAllStops()
+objetoGraficar.createHistogram(dataOneStop)
 
-objetoGraficar= PulsesHistogram(5,300000,82500000,'40000PulsosPeriodicos/histograma.txt',"40000PeriodicosCorrectos/DataConfident0.3us.png")
+objetoGraficar= PulsesHistogram(4,500000,200000000,'40000Pulsos24MHZ/Histograma4000024Mhz.txt',"40000Pulsos24MHZ/Data4StopZoom.png")
+dataOneStop = objetoGraficar.readDataOneStop()
+dataAllStops = objetoGraficar.readDataAllStops()
+objetoGraficar.createHistogram(dataOneStop)
+
+objetoGraficar= PulsesHistogram(3,500000,200000000,'40000Pulsos24MHZ/Histograma4000024Mhz.txt',"40000Pulsos24MHZ/Data3StopZoom.png")
+dataOneStop = objetoGraficar.readDataOneStop()
+dataAllStops = objetoGraficar.readDataAllStops()
+objetoGraficar.createHistogram(dataOneStop)
+
+objetoGraficar= PulsesHistogram(2,500000,200000000,'40000Pulsos24MHZ/Histograma4000024Mhz.txt',"40000Pulsos24MHZ/Data2StopZoom.png")
+dataOneStop = objetoGraficar.readDataOneStop()
+dataAllStops = objetoGraficar.readDataAllStops()
+objetoGraficar.createHistogram(dataOneStop)
+
+objetoGraficar= PulsesHistogram(1,500000,200000000,'40000Pulsos24MHZ/Histograma4000024Mhz.txt',"40000Pulsos24MHZ/Data1StopZoom.png")
+dataOneStop = objetoGraficar.readDataOneStop()
+dataAllStops = objetoGraficar.readDataAllStops()
+objetoGraficar.createHistogram(dataOneStop)
+
+
+objetoGraficar= PulsesHistogram(5,300000,140000000,'40000Pulsos24MHZ/Histograma4000024Mhz.txt',"40000Pulsos24MHZ/DataConfident0.3us.png")
 dataOneStop = objetoGraficar.readDataOneStop()
 dataAllStops = objetoGraficar.readDataAllStops()
 objetoGraficar.createHistogram(dataAllStops)
 
-objetoGraficar= PulsesHistogram(5,200000,82500000,'40000PulsosPeriodicos/histograma.txt',"40000PeriodicosCorrectos/DataConfident0.2us.png")
+objetoGraficar= PulsesHistogram(5,200000,140000000,'40000Pulsos24MHZ/Histograma4000024Mhz.txt',"40000Pulsos24MHZ/DataConfident0.2us.png")
 dataOneStop = objetoGraficar.readDataOneStop()
 dataAllStops = objetoGraficar.readDataAllStops()
 objetoGraficar.createHistogram(dataAllStops)
 
-objetoGraficar= PulsesHistogram(5,100000,82500000,'40000PulsosPeriodicos/histograma.txt',"40000PeriodicosCorrectos/DataConfident0.1us.png")
+objetoGraficar= PulsesHistogram(5,100000,140000000,'40000Pulsos24MHZ/Histograma4000024Mhz.txt',"40000Pulsos24MHZ/DataConfident0.1us.png")
 dataOneStop = objetoGraficar.readDataOneStop()
 dataAllStops = objetoGraficar.readDataAllStops()
 objetoGraficar.createHistogram(dataAllStops)
 
-objetoGraficar= PulsesHistogram(5,50000,82500000,'40000PulsosPeriodicos/histograma.txt',"40000PeriodicosCorrectos/DataConfident0.05us.png")
+objetoGraficar= PulsesHistogram(5,50000,140000000,'40000Pulsos24MHZ/Histograma4000024Mhz.txt',"40000Pulsos24MHZ/DataConfident0.05us.png")
 dataOneStop = objetoGraficar.readDataOneStop()
 dataAllStops = objetoGraficar.readDataAllStops()
 objetoGraficar.createHistogram(dataAllStops)
-
 
 
 
